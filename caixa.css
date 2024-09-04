@@ -1,0 +1,58 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_avo {
+    background-color: blue;
+    color: white;
+    width: 100vw; /* 80% da largura da viewport */
+    height: 100vh; /* 80% da altura da viewport */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.div_pai {
+    background-color: yellow;
+    color: black;
+    width: 98%; /* 80% da largura da caixa avo */
+    height: 40%; /* 40% da altura da caixa avo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_filho {
+    color: black;
+    width: 98%; /* 80% da largura da caixa avo */
+    height: 40%; /* 40% da altura da caixa avo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div_filho {
+    background-color: green;
+    color: white;
+}
+
+.div_pai2 {
+    background-color: pink;
+    color: white;
+    width: 20%; /* 80% da largura da caixa avo */
+    height: 40%; /* 40% da altura da caixa avo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+
+
